@@ -1,2 +1,11 @@
 # Cigarettes-and-Alcohol-Addiction
-Taking cigarettes and alcohol leading people to the various dangerous diseases such as lung cancer etc i taken the dataset from the kaggle and did the analysis using nlp 
+Cigarette and alcohol addiction lead to severe health issues like cancer, liver damage, and heart disease.
+This NLP uses text classification with TF-IDF and an ensemble of logistic regression and random forest to detect substance addiction categories from user input.
+
+
+
+
+
+
+
+
