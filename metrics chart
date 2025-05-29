@@ -1,6 +1,6 @@
-✅ Accuracy: 72.22%
+ Accuracy: 72.22%
 
-📊 Classification Report:
+ Classification Report:
                precision    recall  f1-score   support
 
      ALCOHOL       0.50      1.00      0.67         3
