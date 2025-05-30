@@ -66,7 +66,7 @@ ensemble_model.fit(X_train_tfidf, y_train)
 # 10. Evaluate
 y_pred = ensemble_model.predict(X_test_tfidf)
 accuracy = accuracy_score(y_test, y_pred)
-print(f"\n✅ Ensemble Model Accuracy: {accuracy * 100:.2f}%")
+print(f"\n Ensemble Model Accuracy: {accuracy * 100:.2f}%")
 print("\nClassification Report:\n", classification_report(y_test, y_pred))
 
 # 11. Confusion Matrix
@@ -101,4 +101,4 @@ while True:
         break
     input_vec = vectorizer.transform([user_input])
     prediction = ensemble_model.predict(input_vec)[0]
-    print(f"🧠 Prediction: This text indicates {prediction.upper()} addiction category.")
+    print(f" Prediction: This text indicates {prediction.upper()} addiction category.")
